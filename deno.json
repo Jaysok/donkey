@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "cache": "deno cache deps.ts",
+    "test:cache": "deno cache test_deps.ts",
+    "test": "deno test -A",
+    "test:lexer": "deno test -A lexer/"
+  }
+}
